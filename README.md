@@ -11,12 +11,12 @@ API contracts
     3. limit (Integer) -- no. of items per page
        limit = 2, for this assignment
        
-eg - /getParent?sort=-id&page=2 -- for second page of the decreasing sort by id
+   eg - /getParent?sort=-id&page=2 -- for second page of the decreasing sort by id
                        
                        
 2) GET /getChildTransactions/{parentId}
    pathVariale -
    1. parentId -- parent id for which we want all the child transactions
   
-eg - /getChildTransactions/2 -- List of all child transactions for parent id 2
+   eg - /getChildTransactions/2 -- List of all child transactions for parent id 2
 
