@@ -1,0 +1,15 @@
+package task.daollar;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
+
+@SpringBootApplication
+@ComponentScan({"task.controller"})
+public class DaollarApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(DaollarApplication.class, args);
+	}
+
+}
